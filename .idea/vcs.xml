@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/api-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/comment-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/discovery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/like-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/post-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/profile-service" vcs="Git" />
   </component>
 </project>

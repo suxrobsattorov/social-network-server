@@ -4,196 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f6ed285-2f5d-4911-98a8-af74f7133309" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/uz/scode/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/uz/scode/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/CommentServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/controller/base/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/dto/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/dto/request/CommentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/dto/response/CommentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/entity/template/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/exception/ForbiddenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/exception/IsDeletedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/exception/ItemNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/exception/NullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/exception/UnauthorizaedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/handler/ExceptionHandlerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/mapper/base/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/repository/CommentRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/service/base/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/service/base/GetById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/java/uz/scode/util/ResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment-service/src/test/java/uz/scode/CommentServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/java/uz/scode/DiscoveryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/test/java/uz/scode/DiscoveryApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/LikeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/controller/LikeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/controller/base/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/dto/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/dto/request/LikeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/dto/response/LikeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/entity/Like.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/entity/template/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/enums/LikeStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/exception/ForbiddenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/exception/IsDeletedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/exception/ItemNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/exception/NullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/exception/UnauthorizaedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/handler/ExceptionHandlerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/mapper/LikeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/mapper/base/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/repository/LikeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/service/LikeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/service/base/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/service/base/GetById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/service/impl/LikeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/java/uz/scode/util/ResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like-service/src/test/java/uz/scode/LikeServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/PostServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/controller/AttachController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/controller/base/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/dto/AttachDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/dto/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/dto/request/PostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/dto/response/PostResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/entity/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/entity/template/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/exception/ForbiddenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/exception/IsDeletedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/exception/ItemNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/exception/NullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/exception/UnauthorizaedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/handler/ExceptionHandlerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/mapper/AttachMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/mapper/PostMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/mapper/base/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/repository/AttachRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/repository/PostRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/service/AttachService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/service/base/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/service/base/GetById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/service/impl/AttachServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/service/impl/PostServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/java/uz/scode/util/ResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-service/src/test/java/uz/scode/PostServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/ProfileServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/config/Encoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/controller/AddRoleToUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/controller/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/controller/base/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/dto/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/dto/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/dto/RoleToProfileFrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/dto/request/ProfileRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/dto/request/RoleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/dto/response/ProfileResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/dto/response/RoleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/entity/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/entity/template/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/enums/ProfileStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/exception/ForbiddenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/exception/IsDeletedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/exception/ItemNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/exception/NullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/exception/UnauthorizaedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/handler/ExceptionHandlerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/mapper/ProfileMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/mapper/base/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/repository/ProfileRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/repository/RoleRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/security/filter/CustomAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/security/filter/CustomAuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/service/AddRoleToUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/service/ProfileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/service/base/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/service/base/GetById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/service/impl/AddRoleToUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/service/impl/ProfileServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/service/other/AppUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/java/uz/scode/util/ResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile-service/src/test/java/uz/scode/ProfileServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="9f6ed285-2f5d-4911-98a8-af74f7133309" name="Changes" comment="option commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -349,8 +160,16 @@
       <workItem from="1669372977080" duration="5629000" />
       <workItem from="1669402261392" duration="22000" />
       <workItem from="1669573948218" duration="6364000" />
-      <workItem from="1669642298744" duration="322000" />
+      <workItem from="1669642298744" duration="691000" />
     </task>
+    <task id="LOCAL-00001" summary="option commit">
+      <created>1669642808287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669642808287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,5 +185,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="option commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="option commit" />
   </component>
 </project>
